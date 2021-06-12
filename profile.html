@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile </title>
+    <link rel="stylesheet" href="CSS1.css">
+    <style>
+        #top {
+            padding: 3px;
+            text-align: center;
+        }
+
+        .profile {
+            width: 600px;
+            height: 600px;
+            background-color: rgb(221, 221, 141);
+            border: 3px solid blue;
+            margin: 0px 25% 0px 25%;
+            /* display:flex;
+            align-items: center;*/
+        }
+
+        #prf1 {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(185, 221, 118);
+            border: 3px solid rgb(109, 197, 109);
+            margin: 0px 25% 5% 37%;
+            text-align: justify;
+        }
+
+        #prf2 {
+            /*width: 400px;
+            height: 400px;
+            margin: 0% 25% 0% 30%;*/
+            align-self:center;
+            margin: 0px 25% 25% 25%;
+           // display:flex;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <p id="top"><strong>Your Profile</strong></p>
+        <p class="prf" id="prf1"><img
+                src="https://scontent-maa2-2.xx.fbcdn.net/v/t1.0-9/131986307_195755128906878_362657833588109047_n.jpg?_nc_cat=103&ccb=2&_nc_sid=85a577&_nc_ohc=VKEmsmNBmZAAX8JxvZh&_nc_oc=AQl7hpy0uKSZK_MorzhWM23551DfBXstuYHarTq-Vh72gqdd8mPB1fO6qtbfJP9W20Y&_nc_ht=scontent-maa2-2.xx&oh=da903ebcbe67f44e96724ed609128fb1&oe=6021E6BB"
+                width="149px" height="149px" ></p>
+        <p class="prf" id="prf2">
+            Name: <input type="text" name="username" placeholder="Raushan Kumar"><br> <br>
+            College-Name : <input type="text" name="college" placeholder="BTI Bangalore"><br> <br>
+            Email:<input type="email" name="usermail" placeholder="iamraushan@gmail.com"><br> <br>
+            Language:  English<input type="checkbox" name="lang" important>Hindi<input type="checkbox" name="lang"><br><br> 
+            Familiar with :C<input type="checkbox" name="tech">C++<input type="checkbox" name="tech">Java<input type="checkbox" name="tech">
+            HTML<input type="checkbox" name="tech">CSS<input type="checkbox" name="tech">SQL<input type="checkbox" name="tech">
+            <br><br>
+            <input type="submit" value="submit">
+        </p>
+    </div>
+</body>
+
+</html>
